@@ -633,7 +633,6 @@ NoConn ~ 7500 3450
 NoConn ~ 7500 3650
 NoConn ~ 7500 3950
 NoConn ~ 7500 4050
-NoConn ~ 7500 4150
 NoConn ~ 7500 4250
 NoConn ~ 7500 4350
 NoConn ~ 8450 5300
@@ -900,4 +899,25 @@ Text Notes 1400 3650 0    50   ~ 0
 KBT KPTD-3216MG
 Text Notes 4000 3900 0    50   ~ 0
 GPIO34-GPIO39 don't\nhave pull-ups/-downs
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 5B97576F
+P 3100 5300
+F 0 "J3" H 2994 5075 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2994 5166 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3100 5300 50  0001 C CNN
+F 3 "~" H 3100 5300 50  0001 C CNN
+	1    3100 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 5300 3800 5300
+Text Label 3800 5300 0    50   ~ 0
+ADC_REF
+Wire Wire Line
+	7500 4150 7250 4150
+Wire Wire Line
+	7250 4150 7250 4850
+Text Label 7250 4850 3    50   ~ 0
+ADC_REF
 $EndSCHEMATC
