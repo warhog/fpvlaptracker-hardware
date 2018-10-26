@@ -4,10 +4,10 @@ this is the currently used hardware platform based on esp32 and rx5808.
 
 ## pictures
 
-![3d printed case](https://raw.githubusercontent.com/warhog/fpvlaptracker-hardware/master/fpvlaptracker32/bottom.png | width=300)
-![3d printed case opened](https://raw.githubusercontent.com/warhog/fpvlaptracker-hardware/master/fpvlaptracker32/top.png | width=300)
-![3d printed case](https://raw.githubusercontent.com/warhog/fpvlaptracker-hardware/master/fpvlaptracker32/fpvlaptrackerunit.jpg | width=300)
-![3d printed case opened](https://raw.githubusercontent.com/warhog/fpvlaptracker-hardware/master/fpvlaptracker32/fpvlaptrackerunit_open.jpg | width=300)
+![3d printed case](https://raw.githubusercontent.com/warhog/fpvlaptracker-hardware/master/fpvlaptracker32/bottom.png)
+![3d printed case opened](https://raw.githubusercontent.com/warhog/fpvlaptracker-hardware/master/fpvlaptracker32/top.png)
+![3d printed case](https://raw.githubusercontent.com/warhog/fpvlaptracker-hardware/master/fpvlaptracker32/fpvlaptrackerunit.jpg)
+![3d printed case opened](https://raw.githubusercontent.com/warhog/fpvlaptracker-hardware/master/fpvlaptracker32/fpvlaptrackerunit_open.jpg)
 
 ## schematics
 the schematics and pcb are drawn using KiCAD5 (see schematics folder).
