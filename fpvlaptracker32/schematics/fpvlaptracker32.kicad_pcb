@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -58,6 +58,7 @@
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
@@ -949,7 +950,7 @@
     (pad 1 smd oval (at 9 5.25 270) (size 2.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
     (pad 39 smd rect (at 0.3 -2.45 270) (size 6 6) (layers F.Cu F.Paste F.Mask))
-    (model /home/warhog/kicad/libs/kicad-ESP8266/ESP8266.3dshapes/ESP-12E.wrl
+    (model /home/tobi/kicad/libs/kicad-ESP8266/ESP8266.3dshapes/ESP-12E.wrl
       (offset (xyz 9 -6 0))
       (scale (xyz 0.5 0.5 0.5))
       (rotate (xyz 0 0 180))
